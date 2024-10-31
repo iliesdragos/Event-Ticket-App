@@ -47,11 +47,11 @@ The **Event Ticket App** is a Laravel-based application that allows users to bro
    ```
 
 3. Database Setup:
--  Ensure MySQL is running.
--  Import the **events.sql** file to set up the necessary tables.
+-  Ensure **MySQ**L is running.
+-  Import the `events.sql` file to set up the necessary tables.
 
 4. Environment Variables:
-- Create a **.env** file and add the following configuration:
+- Create a `.env` file and add the following configuration:
   ```bash
   DB_CONNECTION=mysql
   DB_HOST=127.0.0.1
