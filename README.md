@@ -36,3 +36,50 @@ The **Event Ticket App** is a Laravel-based application that allows users to bro
    ```bash
    git clone https://github.com/iliesdragos/Event-Ticket-App.git
    cd Event-Ticket-App
+   ```
+
+2. Install Dependencies:
+   ```bash
+   composer install
+   npm install
+   ```
+
+3. Database Setup:
+-  Ensure MySQL is running.
+-  Import the **events.sql** file to set up the necessary tables.
+
+4. Environment Variables:
+- Create a **.env** file and add the following configuration:
+  ```bash
+  DB_CONNECTION=mysql
+  DB_HOST=127.0.0.1
+  DB_PORT=3306
+  DB_DATABASE=your_database_name
+  DB_USERNAME=your_database_user
+  DB_PASSWORD=your_database_password
+
+  STRIPE_KEY=your_stripe_key
+  STRIPE_SECRET=your_stripe_secret
+  ```
+
+5. Running the Application:
+-  Start the development server:
+   ```bash
+   php artisan serve
+   ```
+-  Compile frontend assets:
+   ```bash
+   npm run dev
+   ```
+
+## Future Improvements
+
+- **Automated Email Reminders**: Implement automated email reminders for upcoming events.
+- **Advanced Analytics**: Provide reporting features for administrators to analyze sales and user engagement.
+- **Wishlist Feature**: Allow users to add events to a wishlist for future booking.
+- **UI/UX Design Enhancements**: Improve the overall look and feel of the application to offer a more visually appealing and user-friendly experience.
+
+  
+
+
+   
