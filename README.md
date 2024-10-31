@@ -9,6 +9,8 @@
 
 The **Event Ticket App** is a Laravel-based application that allows users to browse, select, and purchase tickets for various events. Built with PHP and Blade templating, this application provides a seamless experience for users to manage their event bookings and for administrators to oversee events, tickets, and transactions.
 
+> **Note:** This project was developed in collaboration with two of my university colleagues as part of our coursework.
+
 ## Features
 
 - **User Registration and Login**: Secure access for users, allowing them to register and log in to manage their bookings.
